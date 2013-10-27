@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../.resources/report.css" type="text/css"/><link rel="shortcut icon" href="../.resources/report.gif" type="image/gif"/><title>Singleton.java</title><link rel="stylesheet" href="../.resources/prettify.css" type="text/css"/><script type="text/javascript" src="../.resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="right"><a href="../.sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">jmockit-example</a> &gt; <a href="index.html" class="el_package">com.apigee</a> &gt; <span class="el_source">Singleton.java</span></div><h1>Singleton.java</h1><pre class="source lang-java linenums">package com.apigee;
+
+import java.util.HashMap;
+import java.util.Map;
+
+<span class="nc" id="L6">public class Singleton {</span>
+<span class="fc" id="L7">    private static Singleton instance = new Singleton();</span>
+    private Map &lt;Integer, String&gt; map;
+
+    public static Singleton getInstance() {
+<span class="nc bnc" id="L11" title="All 2 branches missed.">        if (instance == null)</span>
+<span class="nc" id="L12">            instance = new Singleton();</span>
+<span class="nc" id="L13">        return instance;</span>
+    }
+
+    public String message (int msgId) {
+<span class="nc" id="L17">        return map.get(msgId);</span>
+    }
+
+    public void messageComposer (int count) {
+<span class="nc" id="L21">        map = new HashMap&lt;Integer, String&gt;();</span>
+<span class="nc bnc" id="L22" title="All 2 branches missed.">        for (int i=0; i&lt;count; i++) {</span>
+<span class="nc" id="L23">            map.put(i,&quot;message-&quot; + String.valueOf(i));</span>
+        }
+<span class="nc" id="L25">    }</span>
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.eclemma.org/jacoco">JaCoCo</a> 0.6.3.201306030806</span></div></body></html>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../.resources/report.css" type="text/css"/><link rel="shortcut icon" href="../.resources/report.gif" type="image/gif"/><title>Event.java</title><link rel="stylesheet" href="../.resources/prettify.css" type="text/css"/><script type="text/javascript" src="../.resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="right"><a href="../.sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">jmockit-example</a> &gt; <a href="index.html" class="el_package">com.apigee</a> &gt; <span class="el_source">Event.java</span></div><h1>Event.java</h1><pre class="source lang-java linenums">package com.apigee;
+
+import java.util.Random;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
+<span class="nc" id="L7">public final class Event</span>
+{
+<span class="nc" id="L9">    private Random r = new Random ();</span>
+<span class="nc" id="L10">    private final Logger logger = Logger.getLogger(Event.class.getName());</span>
+
+	public static String getExecutionStatus(int i) {
+<span class="nc bnc" id="L13" title="All 2 branches missed.">        if (i &lt; 0)</span>
+<span class="nc" id="L14">            return &quot;FAILURE&quot;;</span>
+<span class="nc bnc" id="L15" title="All 2 branches missed.">        else if (i &gt; 0)</span>
+<span class="nc" id="L16">             return &quot;SUCCESS&quot;;</span>
+        else
+<span class="nc" id="L18">            return &quot;&quot;;</span>
+    }
+
+    public int getPosition (int i) {
+<span class="nc" id="L22">        return i;</span>
+    }
+
+    public int getRandomPosition() {
+<span class="nc" id="L26">        r.setSeed(System.currentTimeMillis());</span>
+<span class="nc" id="L27">        return (-3 + r.nextInt(4));</span>
+    }
+
+    public String printMessage (String status) throws StatusUpdateException {
+<span class="nc bnc" id="L31" title="All 4 branches missed.">        if (status == null || status.isEmpty()) {</span>
+<span class="nc" id="L32">            logger.log(Level.INFO, &quot;status cannot be null or empty&quot;);</span>
+<span class="nc" id="L33">            throw new StatusUpdateException (&quot;StatusUpdateException&quot;);</span>
+        }
+<span class="nc" id="L35">        return  &quot;status is: &quot; + status;</span>
+    }
+
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.eclemma.org/jacoco">JaCoCo</a> 0.6.3.201306030806</span></div></body></html>
