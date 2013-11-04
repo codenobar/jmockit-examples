@@ -3,12 +3,10 @@ package com.apigee.codecoverage;
 import com.apigee.Event;
 import com.apigee.StatusUpdateException;
 
-import java.util.logging.Logger;
-
 
 public class StatusUpdater {
 
-    public void updater(Event context) throws Exception {
+    public void updater(Event context) {
 
                 String status = context.getExecutionStatus(context.getRandomPosition());
                 if (status.equalsIgnoreCase("success")) {
@@ -20,14 +18,13 @@ public class StatusUpdater {
 
     }
 
-    private String print(Event context, String status) {
-        String s = null;
+    private void print(Event context, String status) {
         try {
-            s = context.printMessage (status);
+            context.printMessage (status);
         } catch (StatusUpdateException e) {
-            Logger.getLogger("status update exception" + e);
+            // handle exception
+            System.out.println("handled status update exception");
         }
-        return s;
     }
 
 }

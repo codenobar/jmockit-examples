@@ -1,13 +1,10 @@
 package com.apigee;
 
 import java.util.Random;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 
 public final class Event
 {
     private Random r = new Random ();
-    private final Logger logger = Logger.getLogger(Event.class.getName());
 
 	public String getExecutionStatus(int i) {
         if (i < 0)
@@ -23,12 +20,11 @@ public final class Event
         return (-3 + r.nextInt(4));
     }
 
-    public String printMessage (String status) throws StatusUpdateException {
+    public void printMessage (String status) throws StatusUpdateException {
         if (status == null || status.isEmpty()) {
-            logger.log(Level.INFO, "status cannot be null or empty");
+            System.out.println("status cannot be null or empty");
             throw new StatusUpdateException ("StatusUpdateException");
-        }
-        return  "status is: " + status;
+        } else
+            System.out.println("status is: " + status);
     }
-
 }

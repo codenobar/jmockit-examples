@@ -2,13 +2,20 @@
 
 import com.apigee.Someobject;
 
-import java.util.logging.Level;
-import java.util.logging.Logger;
+<span class="fc" id="L5">public class MyClass {</span>
 
-<span class="fc" id="L8">public class MyClass {</span>
+    public void method (Someobject someobject, int i) {
+<span class="fc" id="L8">        String status = someobject.getString(i);</span>
+<span class="pc bpc" id="L9" title="1 of 2 branches missed.">        if (status.equalsIgnoreCase(&quot;success&quot;)) {</span>
+<span class="nc" id="L10">            print(someobject, &quot;success&quot;);</span>
+<span class="pc bpc" id="L11" title="1 of 2 branches missed.">        }  else if (status.equalsIgnoreCase(&quot;failure&quot;)) {</span>
+<span class="fc" id="L12">            print(someobject, &quot;failure&quot;);</span>
+        } else
+<span class="nc" id="L14">            print(someobject, &quot;&quot;);</span>
+<span class="fc" id="L15">    }</span>
 
-    public void method (Someobject someobject) {
-<span class="fc" id="L11">        Logger.getLogger(MyClass.class.getName()).log(Level.INFO,&quot;returns = &quot;+someobject.getSomemethod(&quot;I love APIs&quot;));</span>
-<span class="fc" id="L12">    }</span>
+    private String print(Someobject someobject, String status) {
+<span class="fc" id="L18">        return someobject.printMessage (status);</span>
+    }
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.eclemma.org/jacoco">JaCoCo</a> 0.6.3.201306030806</span></div></body></html>

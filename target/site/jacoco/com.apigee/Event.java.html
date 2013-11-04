@@ -9,7 +9,7 @@ import java.util.logging.Logger;
 <span class="nc" id="L9">    private Random r = new Random ();</span>
 <span class="nc" id="L10">    private final Logger logger = Logger.getLogger(Event.class.getName());</span>
 
-	public static String getExecutionStatus(int i) {
+	public String getExecutionStatus(int i) {
 <span class="nc bnc" id="L13" title="All 2 branches missed.">        if (i &lt; 0)</span>
 <span class="nc" id="L14">            return &quot;FAILURE&quot;;</span>
 <span class="nc bnc" id="L15" title="All 2 branches missed.">        else if (i &gt; 0)</span>
@@ -18,21 +18,17 @@ import java.util.logging.Logger;
 <span class="nc" id="L18">            return &quot;&quot;;</span>
     }
 
-    public int getPosition (int i) {
-<span class="nc" id="L22">        return i;</span>
-    }
-
     public int getRandomPosition() {
-<span class="nc" id="L26">        r.setSeed(System.currentTimeMillis());</span>
-<span class="nc" id="L27">        return (-3 + r.nextInt(4));</span>
+<span class="nc" id="L22">        r.setSeed(System.currentTimeMillis());</span>
+<span class="nc" id="L23">        return (-3 + r.nextInt(4));</span>
     }
 
     public String printMessage (String status) throws StatusUpdateException {
-<span class="nc bnc" id="L31" title="All 4 branches missed.">        if (status == null || status.isEmpty()) {</span>
-<span class="nc" id="L32">            logger.log(Level.INFO, &quot;status cannot be null or empty&quot;);</span>
-<span class="nc" id="L33">            throw new StatusUpdateException (&quot;StatusUpdateException&quot;);</span>
+<span class="nc bnc" id="L27" title="All 4 branches missed.">        if (status == null || status.isEmpty()) {</span>
+<span class="nc" id="L28">            logger.log(Level.INFO, &quot;status cannot be null or empty&quot;);</span>
+<span class="nc" id="L29">            throw new StatusUpdateException (&quot;StatusUpdateException&quot;);</span>
         }
-<span class="nc" id="L35">        return  &quot;status is: &quot; + status;</span>
+<span class="nc" id="L31">        return  &quot;status is: &quot; + status;</span>
     }
 
 }

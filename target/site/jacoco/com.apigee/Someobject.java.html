@@ -2,8 +2,21 @@
 
 <span class="nc" id="L3">public class Someobject {</span>
 
-    public String getSomemethod (String s) {
-<span class="nc" id="L6">        return s;</span>
+    public String getString(int i) {
+<span class="nc bnc" id="L6" title="All 2 branches missed.">        if (i &lt; 0)</span>
+<span class="nc" id="L7">            return &quot;failure&quot;;</span>
+<span class="nc bnc" id="L8" title="All 2 branches missed.">        else if (i &gt; 0)</span>
+<span class="nc" id="L9">            return &quot;success&quot;;</span>
+        else
+<span class="nc" id="L11">            return &quot;&quot;;</span>
+    }
+
+    public int getInt(int k) {
+<span class="nc" id="L15">        return k;</span>
+    }
+
+    public String printMessage (String status) {
+<span class="nc" id="L19">        return  &quot;status is: &quot; + status;</span>
     }
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.eclemma.org/jacoco">JaCoCo</a> 0.6.3.201306030806</span></div></body></html>
