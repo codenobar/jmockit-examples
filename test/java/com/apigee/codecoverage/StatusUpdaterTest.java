@@ -61,11 +61,11 @@ public class StatusUpdaterTest {
         return new NonStrictExpectations() {
             {
                 event.getRandomPosition();
-                returns(1);
+                returns(-1);
                 event.getExecutionStatus(anyInt);
-                returns("garbage");
+                returns("failure");
                 event.printMessage(anyString);
-                returns("status is garbage");
+                returns("status is failure");
             }
         };
     }

@@ -2,42 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce220ae9-26b6-4962-962e-c3362c4f08b3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/java/com/apigee/Environment.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/java/com/apigee/codecoverage/MessengerTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/java/com/apigee/Organization.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/java/com/apigee/codecoverage/StatusUpdaterTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/java/com/apigee/Utils.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/main/java/com/apigee/Someobject.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/main/java/com/apigee/codecoverage/MyClass.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/java/com/apigee/MessengerTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/java/com/apigee/MyClassTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/java/com/apigee/StatusUpdaterTest.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/java/com/apigee/Event.java" afterPath="$PROJECT_DIR$/main/java/com/apigee/Event.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../api_platform/analytics/sw/services/qpidboot-service/test/unittests/java/com/apigee/analytics/qpidboot/MetricsCollectorExecutorTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../api_platform/analytics/sw/services/qpidboot-service/test/unittests/java/com/apigee/analytics/qpidboot/MetricsCollectorTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../api_platform/analytics/sw/services/qpidboot-service/test/unittests/java/com/apigee/analytics/qpidboot/QpidBootGroupMetricsTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../api_platform/analytics/sw/services/qpidboot-service/test/unittests/java/com/apigee/analytics/qpidboot/QpidBootServiceImplTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../api_platform/analytics/sw/services/qpidboot-service/test/unittests/java/com/apigee/analytics/qpidboot/QueueBuilderTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../api_platform/analytics/sw/services/qpidboot-service/test/unittests/java/com/apigee/analytics/qpidboot/Utils.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../api_platform/main/pom.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../api_platform/gateway/sw/services/analytics/test/unittests/java/com/apigee/analytics/CollectorTest.java" afterPath="$PROJECT_DIR$/../api_platform/gateway/sw/services/analytics/test/unittests/java/com/apigee/analytics/CollectorTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../api_platform/analytics/sw/services/ingestboot-service/test/unittests/java/com/apigee/analytics/ingestboot/DataChangeHandlerTest.java" afterPath="$PROJECT_DIR$/../api_platform/analytics/sw/services/ingestboot-service/test/unittests/java/com/apigee/analytics/ingestboot/DataChangeHandlerTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../api_platform/gateway/sw/services/analytics/test/unittests/java/com/apigee/analytics/collector/DataPusherTest.java" afterPath="$PROJECT_DIR$/../api_platform/gateway/sw/services/analytics/test/unittests/java/com/apigee/analytics/collector/DataPusherTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../api_platform/platform/sw/services/queue-client/main/java/com/apigee/queueclient/task/DelayedTaskExecutor.java" afterPath="$PROJECT_DIR$/../api_platform/platform/sw/services/queue-client/main/java/com/apigee/queueclient/task/DelayedTaskExecutor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../api_platform/analytics/sw/services/ingestboot-service/main/java/com/apigee/analytics/ingestboot/MessageConsumer.java" afterPath="$PROJECT_DIR$/../api_platform/analytics/sw/services/ingestboot-service/main/java/com/apigee/analytics/ingestboot/MessageConsumer.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../api_platform/analytics/sw/services/ingestboot-service/test/unittests/java/com/apigee/analytics/ingestboot/MessageConsumerTest.java" afterPath="$PROJECT_DIR$/../api_platform/analytics/sw/services/ingestboot-service/test/unittests/java/com/apigee/analytics/ingestboot/MessageConsumerTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/java/com/apigee/codecoverage/Messenger.java" afterPath="$PROJECT_DIR$/main/java/com/apigee/codecoverage/Messenger.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../api_platform/analytics/sw/services/ingestboot-service/test/unittests/java/com/apigee/analytics/ingestboot/MetaDataChangeHandlerTest.java" afterPath="$PROJECT_DIR$/../api_platform/analytics/sw/services/ingestboot-service/test/unittests/java/com/apigee/analytics/ingestboot/MetaDataChangeHandlerTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/java/com/apigee/Singleton.java" afterPath="$PROJECT_DIR$/main/java/com/apigee/Singleton.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/java/com/apigee/StatusUpdateException.java" afterPath="$PROJECT_DIR$/main/java/com/apigee/StatusUpdateException.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/java/com/apigee/codecoverage/StatusUpdater.java" afterPath="$PROJECT_DIR$/main/java/com/apigee/codecoverage/StatusUpdater.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../api_platform/analytics/sw/services/qpidboot-service/main/java/com/apigee/analytics/qpidboot/MetricsCollector.java" afterPath="$PROJECT_DIR$/../api_platform/analytics/sw/services/qpidboot-service/main/java/com/apigee/analytics/qpidboot/MetricsCollector.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../api_platform/analytics/sw/services/qpidboot-service/main/java/com/apigee/analytics/qpidboot/QueueBuilder.java" afterPath="$PROJECT_DIR$/../api_platform/analytics/sw/services/qpidboot-service/main/java/com/apigee/analytics/qpidboot/QueueBuilder.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../api_platform/platform/sw/services/queue-client/main/java/com/apigee/queueclient/QueueClientServiceImpl.java" afterPath="$PROJECT_DIR$/../api_platform/platform/sw/services/queue-client/main/java/com/apigee/queueclient/QueueClientServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/java/com/apigee/codecoverage/StatusUpdaterTest.java" afterPath="$PROJECT_DIR$/test/java/com/apigee/codecoverage/StatusUpdaterTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../api_platform/analytics/sw/services/ingestboot-service/test/unittests/java/com/apigee/analytics/ingestboot/Utils.java" afterPath="$PROJECT_DIR$/../api_platform/analytics/sw/services/ingestboot-service/test/unittests/java/com/apigee/analytics/ingestboot/Utils.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../api_platform.bkp/apigee/zip/deploy/nodejs/node_modules/.bin/express" afterPath="$PROJECT_DIR$/../api_platform.bkp/apigee/zip/deploy/nodejs/node_modules/.bin/express" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="jmockit-example.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/pom.xml" changelist="ce220ae9-26b6-4962-962e-c3362c4f08b3" time="1383469553207" ignored="false" />
-    <file path="$PROJECT_DIR$/../api_platform/analytics/sw/services/onboarding-service/impl/main/java/com/apigee/analytics/onboarding/impl/status/OnboardingStatusUpdaterImpl.java" changelist="ce220ae9-26b6-4962-962e-c3362c4f08b3" time="1381904529892" ignored="false" />
     <file path="/SomeClass.java" changelist="ce220ae9-26b6-4962-962e-c3362c4f08b3" time="1381908692545" ignored="false" />
     <file path="/EventContext.java" changelist="ce220ae9-26b6-4962-962e-c3362c4f08b3" time="1381908525021" ignored="false" />
-    <file path="/fragment.java" changelist="ce220ae9-26b6-4962-962e-c3362c4f08b3" time="1383587465009" ignored="false" />
-    <file path="/Dummy.txt" changelist="ce220ae9-26b6-4962-962e-c3362c4f08b3" time="1383563765656" ignored="false" />
+    <file path="/fragment.java" changelist="ce220ae9-26b6-4962-962e-c3362c4f08b3" time="1383883557938" ignored="false" />
+    <file path="/Dummy.txt" changelist="ce220ae9-26b6-4962-962e-c3362c4f08b3" time="1383758418035" ignored="false" />
     <file path="/StatusUpdateException.java" changelist="ce220ae9-26b6-4962-962e-c3362c4f08b3" time="1383556050076" ignored="false" />
     <file path="/StatusUpdaterTest.java" changelist="ce220ae9-26b6-4962-962e-c3362c4f08b3" time="1383556420524" ignored="false" />
     <file path="/Event.java" changelist="ce220ae9-26b6-4962-962e-c3362c4f08b3" time="1383576181676" ignored="false" />
     <file path="/StatusUpdater.java" changelist="ce220ae9-26b6-4962-962e-c3362c4f08b3" time="1383576090911" ignored="false" />
     <file path="/Singleton.java" changelist="ce220ae9-26b6-4962-962e-c3362c4f08b3" time="1383589116127" ignored="false" />
-    <file path="$PROJECT_DIR$/../api_platform/analytics/sw/services/onboarding-service/impl/main/java/com/apigee/analytics/onboarding/impl/tasks/urimetrics/PatternLoader.java" changelist="ce220ae9-26b6-4962-962e-c3362c4f08b3" time="1381995229941" ignored="false" />
     <file path="/Messenger.java" changelist="ce220ae9-26b6-4962-962e-c3362c4f08b3" time="1383591033526" ignored="false" />
     <file path="/MessengerTest.java" changelist="ce220ae9-26b6-4962-962e-c3362c4f08b3" time="1383591527482" ignored="false" />
     <file path="/MyClass.java" changelist="ce220ae9-26b6-4962-962e-c3362c4f08b3" time="1382203138009" ignored="false" />
@@ -45,21 +43,46 @@
     <file path="/MyClassTest.java" changelist="ce220ae9-26b6-4962-962e-c3362c4f08b3" time="1382278659228" ignored="false" />
     <file path="$PROJECT_DIR$/../api_platform/analytics/sw/services/ingestboot-service/test/unittests/java/IngestBootServiceImplTest.java" changelist="ce220ae9-26b6-4962-962e-c3362c4f08b3" time="1382282081269" ignored="false" />
     <file path="$PROJECT_DIR$/../api_platform/analytics/sw/services/ingestboot-service/test/unittests/java/A.java" changelist="ce220ae9-26b6-4962-962e-c3362c4f08b3" time="1382282065249" ignored="false" />
-    <file path="/MetaDataChangeHandlerTest.java" changelist="ce220ae9-26b6-4962-962e-c3362c4f08b3" time="1383064574619" ignored="false" />
-    <file path="/Utils.java" changelist="ce220ae9-26b6-4962-962e-c3362c4f08b3" time="1383575638144" ignored="false" />
-    <file path="/DataChangeHandlerTest.java" changelist="ce220ae9-26b6-4962-962e-c3362c4f08b3" time="1383063134682" ignored="false" />
-    <file path="/MetaDataChangeHandler.java" changelist="ce220ae9-26b6-4962-962e-c3362c4f08b3" time="1383061862006" ignored="false" />
+    <file path="/MetaDataChangeHandlerTest.java" changelist="ce220ae9-26b6-4962-962e-c3362c4f08b3" time="1383722599994" ignored="false" />
+    <file path="/Utils.java" changelist="ce220ae9-26b6-4962-962e-c3362c4f08b3" time="1383932132768" ignored="false" />
+    <file path="/DataChangeHandlerTest.java" changelist="ce220ae9-26b6-4962-962e-c3362c4f08b3" time="1383988513361" ignored="false" />
+    <file path="/MetaDataChangeHandler.java" changelist="ce220ae9-26b6-4962-962e-c3362c4f08b3" time="1383723004104" ignored="false" />
     <file path="/GroupManager.java" changelist="ce220ae9-26b6-4962-962e-c3362c4f08b3" time="1382982565238" ignored="false" />
     <file path="/a.java" changelist="ce220ae9-26b6-4962-962e-c3362c4f08b3" time="1383575291474" ignored="false" />
     <file path="/sample.java" changelist="ce220ae9-26b6-4962-962e-c3362c4f08b3" time="1383575288475" ignored="false" />
     <file path="/CommonAbstractNSE.java" changelist="ce220ae9-26b6-4962-962e-c3362c4f08b3" time="1383044535410" ignored="false" />
-    <file path="/IngestBootServiceImplTest.java" changelist="ce220ae9-26b6-4962-962e-c3362c4f08b3" time="1383066420418" ignored="false" />
+    <file path="/IngestBootServiceImplTest.java" changelist="ce220ae9-26b6-4962-962e-c3362c4f08b3" time="1383647925557" ignored="false" />
     <file path="/CommonNSE.java" changelist="ce220ae9-26b6-4962-962e-c3362c4f08b3" time="1383064558541" ignored="false" />
     <file path="/CommonNonStrictExpectations.java" changelist="ce220ae9-26b6-4962-962e-c3362c4f08b3" time="1383469838794" ignored="false" />
     <file path="/FailureExpectations.java" changelist="ce220ae9-26b6-4962-962e-c3362c4f08b3" time="1383468485006" ignored="false" />
-    <file path="$PROJECT_DIR$/../api_platform/analytics/sw/services/onboarding-service/impl/test/unittests/java/com/apigee/analytics/onboarding/impl/schema/OrganizationServiceImplTest.java" changelist="ce220ae9-26b6-4962-962e-c3362c4f08b3" time="1383586875308" ignored="false" />
     <file path="/Environment.java" changelist="ce220ae9-26b6-4962-962e-c3362c4f08b3" time="1383589547478" ignored="false" />
     <file path="/Organization.java" changelist="ce220ae9-26b6-4962-962e-c3362c4f08b3" time="1383589210893" ignored="false" />
+    <file path="/MessageConsumerTest.java" changelist="ce220ae9-26b6-4962-962e-c3362c4f08b3" time="1384089651652" ignored="false" />
+    <file path="/DistinctTaskExecutor.java" changelist="ce220ae9-26b6-4962-962e-c3362c4f08b3" time="1383668421850" ignored="false" />
+    <file path="/IdentifiableTask.java" changelist="ce220ae9-26b6-4962-962e-c3362c4f08b3" time="1383668958599" ignored="false" />
+    <file path="$PROJECT_DIR$/../api_platform/gateway/sw/steps/saml/pom.xml" changelist="ce220ae9-26b6-4962-962e-c3362c4f08b3" time="1383727615113" ignored="false" />
+    <file path="$PROJECT_DIR$/../api_platform/analytics/sw/services/rest-service-providers/reporting/analytics-summary-report/pom.xml" changelist="ce220ae9-26b6-4962-962e-c3362c4f08b3" time="1383727615113" ignored="false" />
+    <file path="$PROJECT_DIR$/../api_platform/main/pom.xml" changelist="ce220ae9-26b6-4962-962e-c3362c4f08b3" time="1383727615113" ignored="false" />
+    <file path="$PROJECT_DIR$/../api_platform/platform/sw/services/logging-api/pom.xml" changelist="ce220ae9-26b6-4962-962e-c3362c4f08b3" time="1383727615113" ignored="false" />
+    <file path="/TestServerInfoReader.java" changelist="ce220ae9-26b6-4962-962e-c3362c4f08b3" time="1383728640096" ignored="false" />
+    <file path="$PROJECT_DIR$/../api_platform/analytics/sw/services/rest-service-providers/reporting/dataapi/impl/test/unittests/java/com/apigee/analytics/dataapi/tests/units/MockTopKAppsTestCase.java" changelist="ce220ae9-26b6-4962-962e-c3362c4f08b3" time="1383729074435" ignored="false" />
+    <file path="/FunctionalTestCase.java" changelist="ce220ae9-26b6-4962-962e-c3362c4f08b3" time="1383729315827" ignored="false" />
+    <file path="$PROJECT_DIR$/../api_platform/analytics/sw/services/rest-service-providers/reporting/dataapi/impl/test/unittests/java/com/apigee/analytics/dataapi/tests/units/MockTrafficTestCase.java" changelist="ce220ae9-26b6-4962-962e-c3362c4f08b3" time="1383729493761" ignored="false" />
+    <file path="$PROJECT_DIR$/../api_platform/analytics/sw/services/rest-service-providers/reporting/dataapi/impl/test/unittests/java/com/apigee/analytics/dataapi/tests/units/MockApiDetailsTestCase.java" changelist="ce220ae9-26b6-4962-962e-c3362c4f08b3" time="1383729499061" ignored="false" />
+    <file path="$PROJECT_DIR$/../api_platform/analytics/sw/services/rest-service-providers/reporting/dataapi/impl/test/unittests/java/com/apigee/analytics/dataapi/tests/functional/AllApis.java" changelist="ce220ae9-26b6-4962-962e-c3362c4f08b3" time="1383729767088" ignored="false" />
+    <file path="$PROJECT_DIR$/../api_platform/analytics/sw/services/rest-service-providers/reporting/dataapi/impl/test/unittests/java/com/apigee/analytics/dataapi/tests/functional/Sampling.java" changelist="ce220ae9-26b6-4962-962e-c3362c4f08b3" time="1383729842593" ignored="false" />
+    <file path="$PROJECT_DIR$/../api_platform/analytics/sw/services/rest-service-providers/reporting/dataapi/impl/test/unittests/java/com/apigee/analytics/dataapi/tests/functional/Traffic.java" changelist="ce220ae9-26b6-4962-962e-c3362c4f08b3" time="1383730017138" ignored="false" />
+    <file path="/TestDefaultStatsResourceImpl_FT.java" changelist="ce220ae9-26b6-4962-962e-c3362c4f08b3" time="1383730344857" ignored="false" />
+    <file path="/StatsResourceTestSupport.java" changelist="ce220ae9-26b6-4962-962e-c3362c4f08b3" time="1383730477540" ignored="false" />
+    <file path="/MessageConsumer.java" changelist="ce220ae9-26b6-4962-962e-c3362c4f08b3" time="1383814807329" ignored="false" />
+    <file path="/MetricsCollectorTest.java" changelist="ce220ae9-26b6-4962-962e-c3362c4f08b3" time="1383900098295" ignored="false" />
+    <file path="/MetricsCollector.java" changelist="ce220ae9-26b6-4962-962e-c3362c4f08b3" time="1383894686600" ignored="false" />
+    <file path="/QpidBootGroupMetricsTest.java" changelist="ce220ae9-26b6-4962-962e-c3362c4f08b3" time="1383901552268" ignored="false" />
+    <file path="/MetricsCollectorExecutorTest.java" changelist="ce220ae9-26b6-4962-962e-c3362c4f08b3" time="1383906890973" ignored="false" />
+    <file path="/MetricsCollectorExecutor.java" changelist="ce220ae9-26b6-4962-962e-c3362c4f08b3" time="1383906114731" ignored="false" />
+    <file path="/QueueBuilderTest.java" changelist="ce220ae9-26b6-4962-962e-c3362c4f08b3" time="1384106838470" ignored="false" />
+    <file path="/DelayedTaskExecutor.java" changelist="ce220ae9-26b6-4962-962e-c3362c4f08b3" time="1384093495545" ignored="false" />
+    <file path="/QueueClientServiceImpl.java" changelist="ce220ae9-26b6-4962-962e-c3362c4f08b3" time="1383989945485" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,16 +165,16 @@
           <file leaf-file-name="Singleton.java" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/main/java/com/apigee/Singleton.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="6" column="4" selection-start="95" selection-end="95" vertical-scroll-proportion="0.0">
+                <state line="6" column="0" selection-start="95" selection-end="95" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="MessengerTest.java" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="MessengerTest.java" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/test/java/com/apigee/codecoverage/MessengerTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="75" column="28" selection-start="2028" selection-end="2028" vertical-scroll-proportion="-0.07918552">
+                <state line="97" column="24" selection-start="2699" selection-end="2699" vertical-scroll-proportion="0.7368421">
                   <folding />
                 </state>
               </provider>
@@ -160,7 +183,7 @@
           <file leaf-file-name="Organization.java" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/main/java/com/apigee/Organization.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="13" column="50" selection-start="249" selection-end="249" vertical-scroll-proportion="0.0">
+                <state line="13" column="0" selection-start="249" selection-end="249" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -178,7 +201,7 @@
           <file leaf-file-name="Messenger.java" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/main/java/com/apigee/codecoverage/Messenger.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="8" column="4" selection-start="139" selection-end="139" vertical-scroll-proportion="0.0">
+                <state line="8" column="0" selection-start="139" selection-end="139" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -197,19 +220,19 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="StatusUpdater.java" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="StatusUpdater.java" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/main/java/com/apigee/codecoverage/StatusUpdater.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="20" column="54" selection-start="606" selection-end="606" vertical-scroll-proportion="0.0">
+                <state line="11" column="16" selection-start="279" selection-end="279" vertical-scroll-proportion="0.21598879">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Event.java" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="Event.java" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/main/java/com/apigee/Event.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="18" column="29" selection-start="369" selection-end="369" vertical-scroll-proportion="0.5419355">
+                <state line="18" column="29" selection-start="369" selection-end="369" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -218,7 +241,7 @@
           <file leaf-file-name="StatusUpdaterTest.java" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/test/java/com/apigee/codecoverage/StatusUpdaterTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="22" column="0" selection-start="410" selection-end="410" vertical-scroll-proportion="0.0">
+                <state line="63" column="25" selection-start="1676" selection-end="1676" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -244,7 +267,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/test/java/com/apigee/codecoverage/CommonNonStrictExpectations.java" />
         <option value="$PROJECT_DIR$/main/java/com/apigee/StatusUpdateException.java" />
         <option value="$PROJECT_DIR$/test/java/com/apigee/StatusUpdaterTest.java" />
         <option value="$PROJECT_DIR$/main/java/com/apigee/ServiceLocator.java" />
@@ -260,6 +282,7 @@
         <option value="$PROJECT_DIR$/main/java/com/apigee/Singleton.java" />
         <option value="$PROJECT_DIR$/main/java/com/apigee/codecoverage/Messenger.java" />
         <option value="$PROJECT_DIR$/test/java/com/apigee/codecoverage/MessengerTest.java" />
+        <option value="$PROJECT_DIR$/test/java/com/apigee/codecoverage/StatusUpdaterTest.java" />
       </list>
     </option>
   </component>
@@ -467,12 +490,12 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="MemberChooser.showClasses" value="true" />
     <property name="FullScreen" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -637,6 +660,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -662,19 +698,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -807,25 +830,25 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="874" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Code explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34615386" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891247" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891247" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19655667" sideWeight="0.6710875" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32891247" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Code explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19655667" sideWeight="0.6710875" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34615386" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891247" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891247" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998565" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891247" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -892,74 +915,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/sun/reflect/NativeMethodAccessorImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="43" selection-start="788" selection-end="788" vertical-scroll-proportion="0.4977778" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="88" column="35" selection-start="3331" selection-end="3331" vertical-scroll-proportion="0.93473196">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/googlecode/jmockit/jmockit/1.4/jmockit-1.4.jar!/mockit/internal/expectations/RecordAndReplayExecution.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="35" selection-start="2510" selection-end="2510" vertical-scroll-proportion="-5.72">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/googlecode/jmockit/jmockit/1.4/jmockit-1.4.jar!/mockit/Expectations.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="25" selection-start="759" selection-end="759" vertical-scroll-proportion="-9.52">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/java/com/apigee/StatusUpdateException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="8" selection-start="115" selection-end="115" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/java/com/apigee/Utils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="17" selection-start="383" selection-end="383" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/java/com/apigee/codecoverage/StatusUpdaterTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="410" selection-end="410" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/java/com/apigee/codecoverage/StatusUpdater.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="4" selection-start="821" selection-end="821" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/java/com/apigee/Event.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="29" selection-start="369" selection-end="369" vertical-scroll-proportion="0.5419355">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/java/com/apigee/Organization.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="50" selection-start="249" selection-end="249" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main/java/com/apigee/Environment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="18" selection-start="221" selection-end="221" vertical-scroll-proportion="0.0">
@@ -974,16 +929,92 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/sun/reflect/NativeMethodAccessorImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="43" selection-start="788" selection-end="788" vertical-scroll-proportion="0.4977778" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="88" column="35" selection-start="3331" selection-end="3331" vertical-scroll-proportion="0.93473196" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/googlecode/jmockit/jmockit/1.4/jmockit-1.4.jar!/mockit/internal/expectations/RecordAndReplayExecution.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="35" selection-start="2510" selection-end="2510" vertical-scroll-proportion="-5.72">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/googlecode/jmockit/jmockit/1.4/jmockit-1.4.jar!/mockit/Expectations.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="25" selection-start="759" selection-end="759" vertical-scroll-proportion="-9.52" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/java/com/apigee/StatusUpdateException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="8" selection-start="115" selection-end="115" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/java/com/apigee/Organization.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="249" selection-end="249" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/java/com/apigee/Environment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="18" selection-start="221" selection-end="221" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/java/com/apigee/codecoverage/Messenger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="139" selection-end="139" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main/java/com/apigee/Singleton.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="4" selection-start="95" selection-end="95" vertical-scroll-proportion="0.0">
+        <state line="6" column="0" selection-start="95" selection-end="95" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/java/com/apigee/codecoverage/MessengerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="28" selection-start="2028" selection-end="2028" vertical-scroll-proportion="-0.07918552">
+        <state line="97" column="24" selection-start="2699" selection-end="2699" vertical-scroll-proportion="0.7368421">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/java/com/apigee/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="17" selection-start="383" selection-end="383" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/java/com/apigee/codecoverage/StatusUpdater.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="16" selection-start="279" selection-end="279" vertical-scroll-proportion="0.21598879">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/java/com/apigee/Event.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="29" selection-start="369" selection-end="369" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/java/com/apigee/codecoverage/StatusUpdaterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="25" selection-start="1676" selection-end="1676" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
