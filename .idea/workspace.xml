@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce220ae9-26b6-4962-962e-c3362c4f08b3" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/java/com/apigee/codecoverage/MessageLogger.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/java/com/apigee/codecoverage/MessageLoggerTest.java" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../api_platform/gateway/sw/tools/step-quick-start/main/resources/archetype-resources/${project.build.directory}/classes/META-INF/services/com.apigee.messaging.runtime.steps.StepDefinitionFactory" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../api_platform/gateway/sw/tools/step-quick-start/main/resources/archetype-resources/${project.build.directory}/classes/__package__-errors.properties" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../api_platform/gateway/sw/tools/step-quick-start/main/resources/archetype-resources/${project.build.directory}/classes/jaxb.index" afterPath="" />
@@ -12,9 +14,9 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/../api_platform/gateway/sw/tools/step-service-quick-start/main/resources/archetype-resources/${project.build.directory}/classes/adaptor/jaxb.index" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../api_platform/platform/sw/tools/service-quick-start/main/resources/archetype-resources/${project.build.directory}/classes/META-INF/deployment-descriptor.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../api_platform/platform/sw/tools/service-quick-start/main/resources/archetype-resources/${project.build.directory}/classes/__package__-errors.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/main/java/com/apigee/codecoverage/Messenger.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/java/com/apigee/codecoverage/MessengerTest.java" afterPath="" />
       <change type="MOVED" beforePath="$PROJECT_DIR$/main/java/com/apigee/Singleton.java" afterPath="$PROJECT_DIR$/main/java/com/apigee/Messenger.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/main/java/com/apigee/codecoverage/Messenger.java" afterPath="$PROJECT_DIR$/main/java/com/apigee/codecoverage/MessageLogger.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test/java/com/apigee/codecoverage/MessengerTest.java" afterPath="$PROJECT_DIR$/test/java/com/apigee/codecoverage/MessageLoggerTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/java/com/apigee/Environment.java" afterPath="$PROJECT_DIR$/main/java/com/apigee/Environment.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../api_platform/analytics/sw/services/qpidboot-service/main/java/com/apigee/analytics/qpidboot/MetricsCollector.java" afterPath="$PROJECT_DIR$/../api_platform/analytics/sw/services/qpidboot-service/main/java/com/apigee/analytics/qpidboot/MetricsCollector.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../api_platform/analytics/sw/services/qpidboot-service/test/unittests/java/com/apigee/analytics/qpidboot/MetricsCollectorTest.java" afterPath="$PROJECT_DIR$/../api_platform/analytics/sw/services/qpidboot-service/test/unittests/java/com/apigee/analytics/qpidboot/MetricsCollectorTest.java" />
@@ -132,7 +134,7 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf>
-          <file leaf-file-name="MessageLoggerTest.java" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="MessageLoggerTest.java" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/test/java/com/apigee/codecoverage/MessageLoggerTest.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state line="55" column="27" selection-start="1348" selection-end="1359" vertical-scroll-proportion="-0.63911843">
@@ -181,10 +183,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Utils.java" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="Utils.java" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/main/java/com/apigee/Utils.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="15" column="17" selection-start="383" selection-end="383" vertical-scroll-proportion="0.36273116">
+                <state line="17" column="48" selection-start="390" selection-end="390" vertical-scroll-proportion="0.4110953">
                   <folding />
                 </state>
               </provider>
@@ -202,7 +204,7 @@
           <file leaf-file-name="Environment.java" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/main/java/com/apigee/Environment.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="12" column="63" selection-start="245" selection-end="245" vertical-scroll-proportion="0.0">
+                <state line="12" column="0" selection-start="245" selection-end="245" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -269,7 +271,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="22" />
+    <option name="x" value="187" />
+    <option name="y" value="-879" />
     <option name="width" value="1440" />
     <option name="height" value="874" />
   </component>
@@ -804,7 +807,7 @@
     <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="874" extended-state="6" />
+    <frame x="187" y="-879" width="1440" height="874" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -949,7 +952,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main/java/com/apigee/Environment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="63" selection-start="245" selection-end="245" vertical-scroll-proportion="0.0">
+        <state line="12" column="0" selection-start="245" selection-end="245" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -987,16 +990,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/java/com/apigee/Utils.java">
+    <entry file="file://$PROJECT_DIR$/test/java/com/apigee/codecoverage/MessageLoggerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="17" selection-start="383" selection-end="383" vertical-scroll-proportion="0.36273116">
+        <state line="55" column="27" selection-start="1348" selection-end="1359" vertical-scroll-proportion="-0.63911843">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/java/com/apigee/codecoverage/MessageLoggerTest.java">
+    <entry file="file://$PROJECT_DIR$/main/java/com/apigee/Utils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="27" selection-start="1348" selection-end="1359" vertical-scroll-proportion="-0.63911843">
+        <state line="17" column="48" selection-start="390" selection-end="390" vertical-scroll-proportion="0.4110953">
           <folding />
         </state>
       </provider>
