@@ -16,11 +16,12 @@ import mockit.integration.junit4.JMockit;
 public class StatusUpdaterTest {
 
     @Mocked
-    Event event;
+    private Event event;
+    @Tested
+    private StatusUpdater statusUpdater;
 
     @Test
     public void updaterSuccess() throws StatusUpdateException {
-
         new Expectations() {
             {
                 event.getRandomPosition();
@@ -31,15 +32,13 @@ public class StatusUpdaterTest {
                 returns("status is success");
             }
         };
-        StatusUpdater s = new StatusUpdater();
-        s.updater(event);
+        statusUpdater.updater(event);
     }
 
     @Test
     public void updaterFailure() throws StatusUpdateException {
         commonNonStrictExpectations();
-        StatusUpdater s = new StatusUpdater();
-        s.updater(event);
+        statusUpdater.updater(event);
     }
 
     @Test
@@ -53,8 +52,7 @@ public class StatusUpdaterTest {
                 result = new StatusUpdateException();
             }
         };
-        StatusUpdater s = new StatusUpdater();
-        s.updater(event);
+        statusUpdater.updater(event);
     }
 
     private NonStrictExpectations commonNonStrictExpectations() throws StatusUpdateException {

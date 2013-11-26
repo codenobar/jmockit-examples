@@ -8,5 +8,5 @@ package com.apigee;
  */
 public interface Environment {
 
-    public String getEnvironmentName ();
+    public String getEnvironmentInfo();
 }

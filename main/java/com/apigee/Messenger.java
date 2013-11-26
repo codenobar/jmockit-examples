@@ -3,16 +3,16 @@ package com.apigee;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Singleton {
+public class Messenger {
 
-    private static Singleton instance = new Singleton();
+    private static Messenger instance = new Messenger();
     private Map <Integer, String> map;
     private Organization organization;
     private Environment environment;
 
-    public static Singleton getInstance() {
+    public static Messenger getInstance() {
         if (instance == null)
-            instance = new Singleton();
+            instance = new Messenger();
         return instance;
     }
 
@@ -35,11 +35,11 @@ public class Singleton {
         this.environment = environment;
     }
 
-    public Environment getEnvironment() {
+    public Environment getEnvironment () {
         return environment;
     }
 
-    public Organization getOrganization() {
+    public Organization getOrganization () {
         return organization;
     }
 }
