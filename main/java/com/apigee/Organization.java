@@ -8,6 +8,6 @@ package com.apigee;
  */
 public interface Organization {
 
-    public String getOrganizationName ();
+    public String getOrganizationInfo();
 
 }
